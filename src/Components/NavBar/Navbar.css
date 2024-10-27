@@ -1,0 +1,32 @@
+.navbar {
+  @apply w-[100%] absolute top-[41px];
+}
+
+.menu-row {
+  @apply flex justify-between items-center;
+}
+
+.menu-row .menu-dekstop ul {
+  @apply flex justify-center items-center gap-[25px];
+}
+
+.menu-row .menu-dekstop ul a {
+  @apply font-Montserrat text-secondary opacity-[50%] font-medium text-[24px]  hover:opacity-[100%] hover:font-bold transition-all duration-500;
+}
+
+/* Mobile Navbar Start ========================================================== */
+.menu-icon {
+  @apply h-[30px] w-[30px] pt-[7px] pl-[7px] pb-[8px] pr-[8px] rounded-[10%];
+}
+
+.menu-mobile ul {
+  @apply absolute flex flex-col gap-2 right-[50%] top-[10px] p-[10px] bg-primary h-[210px] w-[200px] md:h-[220px] rounded-[10px];
+}
+
+.menu-mobile ul a {
+  @apply font-Montserrat text-secondary opacity-[50%] font-medium text-[14px] md:text-[16px]  hover:opacity-[100%] hover:font-bold transition-all duration-500;
+}
+
+.menu-mobile ul button {
+  @apply w-[138px] h-[50px] md:w-[145px] md:h-[50px] text-[14px] md:text-[16px] bg-[rgb(255,255,255,0.5)] rounded-[20px] border-2 border-primary border-solid text-secondary font-Montserrat font-bold mt-[5px] md:mt-[10px];
+}

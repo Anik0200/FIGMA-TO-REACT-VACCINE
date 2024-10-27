@@ -1,0 +1,67 @@
+.banner {
+  @apply bg-[url('/Images/banner.png')] bg-no-repeat bg-cover bg-center pt-[127px] md:pt-[126px] lg:pt-[211px];
+}
+
+.banner-text h2 {
+  @apply text-[12px] md:text-[18px] lg:text-[24px];
+}
+
+.banner-text h1 {
+  @apply text-[24px] md:text-[36px] lg:text-[48px] w-[276px] md:w-[414px] lg:w-[551px] my-[20px] md:my-[40px] lg:mt-[40px] lg:mb-[50px];
+}
+
+.banner-text p {
+  @apply text-[14px] md:text-[20px] lg:text-[24px] w-[271px] md:w-[502px] lg:w-[603px];
+}
+
+.banner-btn {
+  @apply gap-[20px] mt-[40px] lg:mt-[50px];
+}
+
+.banner-row {
+  @apply flex flex-wrap justify-center md:justify-between gap-[50px] md:gap-[55px] lg:gap-0;
+}
+
+.banner-image {
+  @apply md:px-[73px] lg:px-0;
+}
+
+.banner-footer .heading {
+  @apply gap-[10px] md:gap-[19px];
+}
+
+.banner-footer .heading {
+  @apply mt-[49px] mb-[27px] md:mt-[39px] md:mb-[32px] lg:mt-0 lg:mb-[29px];
+}
+
+.banner-footer .heading .clockIcon {
+  @apply text-[24px]  md:text-[32px]  lg:text-[45px] p-[4px] md:p-[10] lg:p-[12px] rounded-[8px] md:rounded-[10px];
+}
+
+.banner-footer .heading h2 {
+  @apply text-[14px] md:text-[24px];
+}
+
+.banner-footer .booking {
+  @apply pt-[20px] pb-[10px] pl-[10px] pr-[91px]  md:pl-[11px] md:pr-[36px] md:pt-[37px] md:pb-[46px] md:px-[0px] lg:px-[40px] lg:pt-[46px] lg:pb-[56px] rounded-t-[16px] shadow-[inset_0px_15px_0px_0px_#00000024,0px_3px_8px_0px_#00000024,0px_3px_8px_0px_#00000024,0px_3px_8px_0px_#00000024];
+}
+
+.banner-footer .booking .book-wrap {
+  @apply gap-[15px] md:gap-[41px] lg:gap-[49px] mt-[20px] md:mt-0 lg:mt-0;
+}
+
+.banner-footer .booking .item {
+  @apply gap-[10px] md:gap-[20px];
+}
+
+.banner-footer .booking .bookIcon {
+  @apply text-[24px]  md:text-[32px]  lg:text-[45px] p-[5px] md:px-[9px] md:py-[10px] rounded-[10px];
+}
+
+.banner-footer .booking .text h2 {
+  @apply text-[14px] md:text-[20px] lg:text-[24px] m-0;
+}
+
+.banner-footer .booking .text p {
+  @apply text-[14px] md:text-[20px] lg:text-[24px] m-0;
+}

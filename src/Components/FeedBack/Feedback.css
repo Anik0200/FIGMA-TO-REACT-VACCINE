@@ -1,0 +1,127 @@
+.feedback {
+  @apply bg-[url('/Images/feedback.png')] bg-no-repeat bg-cover bg-center
+
+             pt-[30px] md:pt-[46px] lg:pt-[57px]
+
+             pb-[158px] md:pb-[221px] lg:pb-[321px];
+}
+
+.feedbackHead h2 {
+  @apply text-[14px] md:text-[20px] lg:text-[24px];
+}
+
+.feedbackHead h3 {
+  @apply w-[315px] md:w-full
+
+            mt-[20px] mb-[20px] md:mt-[20px] md:mb-[40px]
+
+            text-[24px] md:text-[36px] lg:text-[48px];
+}
+
+.feedbackHead p {
+  @apply mb-[16px] md:mb-[60px] lg:mb-[100px]
+
+         m-auto w-[248px] md:w-[580px] lg:w-[952px]
+
+         text-[12px] md:text-[18px] lg:text-[24px];
+}
+
+.doctors {
+  @apply flex flex-col items-center
+
+             gap-[30px] md:gap-[30px] lg:gap-0
+
+             lg:flex-row lg:justify-between;
+}
+
+.doctors .doc {
+  @apply pl-[25px] pr-[25px] pt-[22px] pb-[33px]
+
+         md:pl-[34px] md:pr-[34px] md:pt-[30px] md:pb-[44px]
+
+         bg-[rgba(196,196,196,0.1)] rounded-[20px];
+}
+
+.docName h3 {
+  @apply text-[13px] md:text-[20px] lg:text-[24px];
+}
+
+.docName p {
+  @apply text-[9px] md:text-[14px];
+}
+
+.doc .p {
+  @apply mt-[30px] md:mt-[40px]
+
+            w-[253px] md:w-[333px]
+
+            text-[12px] md:text-[18px];
+}
+
+.qoute-shadow {
+  @apply flex flex-col items-center justify-center text-center
+
+  bg-[rgba(196,196,196,0.4)]
+
+  rounded-[20px] md:rounded-[50px]
+
+  bottom-0 translate-y-2/4 left-1/2 -translate-x-1/2
+
+  px-[13px] pt-[31px] pb-[28px]
+
+  md:px-[25px] md:pt-[29px] md:pb-[28px]
+
+  lg:px-[19px] lg:pt-[17px] lg:pb-[18px];
+}
+
+.qoute {
+  @apply bg-primary rounded-[10px] md:rounded-[50px]
+
+            pl-[23px] pr-[24px] pt-[16px] pb-[29px]
+
+            md:pl-[62px] md:pr-[48px] md:pt-[16px] md:pb-[56px]
+
+            lg:pl-[241px] lg:pr-[241px] lg:pt-[70px] lg:pb-[107px];
+}
+
+.qoute h2 {
+  @apply text-[18px] md:text-[36px] lg:text-[48px];
+}
+
+.qoute p {
+  @apply text-[10px] md:text-[20px] lg:text-[24px]
+
+          mt-[5px]  mb-[24px]
+
+          md:mt-[20px] md:mb-[28px]
+
+          lg:mt-[20px] lg:mb-[40px];
+}
+
+.qoute .input-colls {
+  @apply flex justify-center items-center;
+}
+
+.qoute .input-colls input {
+  @apply rounded-l-[30px]
+
+          pl-[12px] pr-[26px] pt-[14px] pb-[16px]
+
+          md:pl-[40px] md:pr-[193px] md:pt-[28px] md:pb-[28px]
+
+          w-[174px] h-[40px]  md:w-[450px] md:h-[75px]
+
+          outline-none bg-secondary;
+}
+
+.qoute .input-colls .FaPaperPlane {
+  @apply bg-black text-secondary rounded-r-[30px]
+
+           text-[19px] md:text-[33px]
+
+           pl-[11px] pr-[23px] pt-[10px] pb-[10px]
+
+           md:pl-[30px] md:pr-[30px] md:pt-[17px] md:pb-[18px]
+
+           w-[58px] h-[40px] md:w-[100px] md:h-[75px];
+}

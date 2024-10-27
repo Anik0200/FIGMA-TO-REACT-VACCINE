@@ -1,0 +1,45 @@
+.result {
+  @apply py-[58px] md:py-[57px] lg:py-[62px] bg-[url('/Images/result.png')] bg-no-repeat bg-cover bg-center;
+}
+
+.main-result {
+  @apply w-full rounded-t-[20px] overflow-hidden;
+}
+
+.main-result .result-header {
+  @apply bg-[rgba(196,196,196,0.2)] w-full text-center lg:text-start py-[14px] md:py-[16px] lg:py-[36px] lg:pl-[70px];
+}
+
+.main-result .result-header h2 {
+  @apply text-[10px] md:text-[20px] lg:text-[24px];
+}
+
+.input-collection {
+  @apply pt-[21px] pb-[32px] md:pt-[40px] md:pb-[45px] lg:pt-[35px] lg:pb-[31px] bg-[rgba(196,196,196,0.1)] rounded-b-[20px]
+
+  flex flex-col items-center gap-[48px] md:gap-[50px] lg:gap-[35px];
+}
+
+.input-f {
+  @apply flex flex-col lg:flex-row lg:justify-start gap-[20px];
+}
+
+.input-f input {
+  @apply w-[280px] h-[50px] md:w-[447px] md:h-[69px] lg:w-[450px] lg:h-[69px] border-[3px] border-solid border-[rgba(196,196,196,0.9)]
+
+  rounded-[20px] outline-none bg-transparent focus:border-primary text-[12px] md:text-[20px] lg:text-[24px] text-secondary
+
+  placeholder:text-secondary pl-[17px] md:pl-[26px] lg:pl-[25px];
+}
+
+.input-collection h2 {
+  @apply  text-[10px] md:text-[14px] lg:text-[24px]
+
+  px-[12px] py-[13px]
+
+  md:px-[45px] md:py-[19px]
+
+  lg:px-[190px]  lg:py-[20px]
+
+ bg-[rgba(196,196,196,0.2)] rounded-[10px] md:rounded-[20px];
+}
