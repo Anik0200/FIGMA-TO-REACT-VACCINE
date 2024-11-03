@@ -2,7 +2,7 @@
 
 This Repository Contains a Sleek And Minimalist Landing Page Develop With React Js.
 
-[DEMO](https://figma-to-react-vaccine.netlify.app/)
+[DEMO](https://figma-to-react-vaccine.vercel.app/)
 
 ## FEATURES :
 
